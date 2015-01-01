@@ -1,0 +1,430 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#headear {
+	background-color: #000000;
+	max-width: 100%;
+}
+.encabezado {
+	background-color: #000000;
+	color: #D6BE94;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+	width: 92%;
+}
+#navigation {
+	width: 80%;
+	background-color: #FFFFFF;
+}
+.linkNavegacion {
+	display: block;
+	min-width: 100px;
+	background-color: #FFFFFF;
+	color: #D6BE94;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+}
+.linkNavegacion:visited, .linkNavegacion:active {
+	color: #D6BE94;
+}
+.linkNavegacion:hover {
+	background-color: #1F1F1F;
+	color: #DEC99B;
+}
+.seleccionado {
+	background-color: #000000;
+}
+#cuerpo {
+	width: 100%;
+	min-height: 300px;
+	background-color: #666666;
+	display: block;
+}
+
+#nuevoProyecto {
+	background: url(img/f4.jpg) no-repeat;
+	
+	min-height: 300px;
+	float: left;
+	width: 75%;
+	height: 100%
+}
+.cuartoNegroTransparente {
+	width: 25%;
+	height: 100%;
+	min-height: 300px;
+	background-color: #222222;
+	opacity: 0.9;
+	color: #F8F8F8;
+	float: left;
+	position: relative;
+}
+.cuartoNegroTransparente h1 {
+	text-align: left;
+	width: 95%;
+	margin-left: 5%;
+	border-bottom: solid 1px #A2A2A2;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+}
+.cuartoNegroTransparente h2 {
+	text-align: right;
+	padding-right: 5%;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+	float: right;
+	max-width: 40%;
+}
+.detalleProyecto {
+	text-align: right;
+	width: 95%;
+	float: right;
+	margin-right: 5%;
+	border-bottom: solid 1px #FFFFFF;
+	position: absolute;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+.detalleProyecto p {
+	text-align: right;
+	float: right;
+	width: 60%;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+#footer {
+	min-height: 100px;
+	height: 15%;
+	background-color: #FFFFFF;
+	width: 100%;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+#datos {
+	float: right;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+#copyright {
+	height: 25px;
+	width: 100%;
+	text-align: center;
+	float: right;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+/*nosotros*/
+#wrapperMiembros {
+
+	float: left;
+	width: 70%;
+}
+.miembro {
+	width: 20%;
+	color: #F8F8F8;
+	float: left;
+}
+.nombre {
+	float: right;
+	text-align: right;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+}
+.foto {
+
+	background-color: #333333;
+	border: 0;
+	float: right;
+}
+.credenciales {
+	border-top: 1px solid #FFFFFF;
+	text-align: right;
+	width: 100%;
+	float: right;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+.cv {
+	text-align: right;
+	width: 90%;
+	float: right;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+/*nosotros*/
+/*contacto*/
+#wrapperContacto {
+
+	float: left;
+}
+.formContacto {
+	height: 100%;
+	width: 100%;
+}
+#camposWrapper {
+	float: left;
+	width: 100%;
+}
+.campoFormulario {
+
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+.campoFormulario label {
+	color: #F6F7F9;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+.campoFormulario input, .campoFormulario textarea {
+	background-color: #333333;
+	color: #F6F7F9;
+	float: right;
+	width: 60%;
+	border: 0px;
+	resize: none;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+.btnEnviar {
+	background-color: #333333;
+	color: #F6F7F9;
+	float: right;
+}
+/*contacto*/
+
+/*Portfoilio*/
+#wrapperPortfolio{
+	overflow-x: hidden;
+}
+.carrouselBN{
+	padding: 5% ;
+}
+.proyecto{
+	height: 100%;
+	min-width: 250px;
+	padding: 0 2% 0 2%;
+}
+
+.proyecto h3{
+	text-align: right;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+	color: #F6F7F9;
+	padding: 0 0 2% 0;
+}
+.proyecto img{
+	border-bottom: solid #F8F8F8 1px;
+	width: 100%;
+}
+.proyecto p{
+	text-align: right;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	color: #F6F7F9;
+	padding: 2% 0 1% 0;
+}
+/*Portfoilio*/
+
+@media screen and (max-height: 800px) {
+	.linkNavegacion {
+		padding: 30px 30px 30px 30px;
+		font-size: 20px;
+	}
+	.encabezado {
+		font-size: 80px;
+		padding: 20px 0px 15px 80px;
+	}
+	#navigation {
+		min-height: 87px;
+		padding: 0px 0px 0px 20%;
+	}
+	.cuartoNegroTransparente h1 {
+		font-size: 16px;
+		padding: 5px 0 5px 0;
+	}
+	.cuartoNegroTransparente h2 {
+		font-size: 14px;
+	}
+	.detalleProyecto {
+		font-size: 12px;
+		bottom: 15px;
+		padding-bottom: 5px;
+	}
+	.detalleProyecto p {
+		font-size: 12px;
+	}
+	#footer {
+		font-size: 12px;
+	}
+	#datos {
+		padding: 10px 30px 30px 0px;
+		font-size: 12px;
+	}
+	#copyright {
+		font-size: 12px;
+	}
+	#wrapperMiembros {
+		padding: 50px 0 30px 50px;
+	}
+	.miembro {
+		font-size: 12px;
+		margin-right: 75px;
+		min-width: 100px;
+	}
+	.nombre {
+		font-size: 16px;
+	}
+	.foto {
+		height: 150px;
+		width: 140px;
+		margin-bottom: 20px;
+	}
+	.credenciales {
+		font-size: 12px;
+		padding: 4px 0 10px 0;
+	}
+	.cv {
+		font-size: 12px;
+	}
+	#wrapperContacto {
+		padding: 100px 0 100px 80px;
+		min-height: 200px;
+	}
+	.formContacto {
+
+	}
+	#camposWrapper {
+		padding-bottom: 30px;
+	}
+	.campoFormulario {
+		min-width: 356px;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.campoFormulario label {
+		font-size: 14px;
+	}
+	.campoFormulario input, .campoFormulario textarea {
+		font-size: 14px;
+		padding: 0 0 0 5px;
+	}
+	.btnEnviar {
+		padding: 0 0 0 5px;
+	}
+	.proyecto h3{
+		font-size: 24px;
+	}
+	.proyecto img{
+		padding-bottom: 10px;
+		min-height: 100px;
+		min-width: 150px;
+	}
+	.proyecto p{
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-height: 800px) {
+	.linkNavegacion {
+		padding: 30px 30px 30px 30px;
+		font-size: 20px;
+	}
+	.encabezado {
+		font-size: 80px;
+		padding: 40px 0px 15px 80px;
+	}
+	#navigation {
+		height: 86px;
+		padding: 0px 0px 0px 20%;
+	}
+	.cuartoNegroTransparente h1 {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	.cuartoNegroTransparente h2 {
+		font-size: 14px;
+	}
+	.detalleProyecto {
+		font-size: 12px;
+		bottom: 15px;
+	}
+	.detalleProyecto p {
+		font-size: 12px;
+	}
+	#footer {
+		font-size: 12px;
+	}
+	#datos {
+		padding: 10px 30px 30px 0px;
+		font-size: 12px;
+	}
+	#copyright {
+		font-size: 12px;
+	}
+	#wrapperMiembros {
+		padding: 50px 0 30px 50px;
+	}
+	.miembro {
+		font-size: 12px;
+		margin-right: 75px;
+	}
+	.nombre {
+		font-size: 16px;
+	}
+	.foto {
+		height: 150px;
+		width: 140px;
+		margin-bottom: 20px;
+	}
+	.credenciales {
+		font-size: 12px;
+		padding: 4px 0 10px 0;
+	}
+	.cv {
+		font-size: 12px;
+	}
+	#wrapperContacto {
+		padding: 100px 0 100px 80px;
+		min-height: 200px;
+	}
+	.formContacto {
+
+	}
+	#camposWrapper {
+		padding-bottom: 30px;
+	}
+	.campoFormulario {
+		min-width: 356px;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.campoFormulario label {
+		font-size: 14px;
+	}
+	.campoFormulario input, .campoFormulario textarea {
+		font-size: 14px;
+		padding: 0 0 0 5px;
+	}
+	.btnEnviar {
+		padding: 0 0 0 5px;
+	}
+	.proyecto h3{
+		font-size: 24px;
+	}
+	.proyecto img{
+		padding-bottom: 16px;
+		min-height: 150px;
+		min-width: 225px;
+	}
+	.proyecto p{
+		font-size: 16px;
+	}
+}

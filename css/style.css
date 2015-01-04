@@ -47,7 +47,7 @@
 }
 
 #nuevoProyecto {
-	background: url(img/f4.jpg) no-repeat;
+	background: url(img/home1.jpg) no-repeat;
 	min-height: 300px;
 	float: left;
 	width: 75%;
@@ -280,8 +280,69 @@
 	background: url(img/modal_close.png);
 	z-index: 2;
 }
-.detallePortfolio{
+#wrapperDetalleProyectos{
+	display: none;
+}
+.sliderDetalle {
+	width: 25%;
+	height: 100%;
+	background-color: #222222;
+	color: #F8F8F8;
+	float: left;
+	position: relative;
+}
+.proyectoDetallado{
+	min-height: 550px !important	;
 	
+}
+.proyectoDetallado h1 {
+	text-align: left;
+	width: 95%;
+	margin-left: 5%;
+	border-bottom: solid 1px #A2A2A2;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+}
+.proyectoDetallado h2 {
+	text-align: right;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+	float: right;
+	width: 80%;
+}
+.proyectoDetallado h3 {
+	text-align: right;
+	padding-right: 5%;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+	float: right;
+	width: 70%;
+}
+.sliderFotos{
+	width: 75%;
+	height: 100%;
+	background-color: #666666;
+	color: #F8F8F8;
+	float: left;
+	position: relative;
+}
+.fotoIlustrativa{
+	min-height: 400px;
+	padding: 2% 2% 0 2%;
+}
+.fotoIlustrativa img{
+	height: 90%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 2.5%;
+}
+.detallePortfolio {
+
 }
 /*Portfoilio*/
 
@@ -385,6 +446,15 @@
 	.separator {
 		height: 1px;
 		margin: 20px 0 5px 0;
+	}
+	.proyectoDetallado h1 {
+		font-size: 20px;
+	}
+	.proyectoDetallado h2 {
+		font-size: 16px;
+	}
+	.proyectoDetallado h3 {
+		font-size: 12px;
 	}
 }
 

@@ -41,7 +41,6 @@
 }
 #cuerpo {
 	width: 100%;
-	min-height: 300px;
 	background-color: #666666;
 	display: block;
 }
@@ -79,7 +78,7 @@
 	font-family: 'BenchNine', sans-serif;
 	font-weight: 300;
 	float: right;
-	max-width: 40%;
+	max-width: 80%;
 }
 .detalleProyecto {
 	text-align: right;
@@ -135,6 +134,7 @@
 	text-align: right;
 	font-family: 'BenchNine', sans-serif;
 	font-weight: 300;
+	width: 100%;
 }
 .foto {
 
@@ -237,6 +237,7 @@
 }
 .rnc:hover {
 	background: url(img/rnc1_onhover.png) no-repeat;
+	background-size: cover;
 }
 .itineris {
 	background: url(img/rnc1.png) no-repeat;
@@ -245,6 +246,7 @@
 }
 .itineris:hover {
 	background: url(img/rnc1_onhover.png) no-repeat;
+	background-size: cover;
 }
 .el {
 	background: url(img/EL1.png) no-repeat;
@@ -253,6 +255,34 @@
 }
 .el:hover {
 	background: url(img/EL1_onhover.png) no-repeat;
+	background-size: cover;
+}
+.mMartin{
+	background: url(img/MM1.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.mMartin:hover {
+	background: url(img/MM1_onhover.png) no-repeat;
+	background-size: cover;
+}
+.autoArgentinos {
+	background: url(img/AA1.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.autoArgentinos:hover {
+	background: url(img/AA1_onhover.png) no-repeat;
+	background-size: cover;
+}
+.mMKT {
+	background: url(img/mkt1.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.mMKT:hover {
+	background: url(img/mkt1_onhover.png) no-repeat;
+	background-size: cover;
 }
 .separator {
 	width: 100%;
@@ -336,7 +366,7 @@
 	padding: 2% 2% 0 2%;
 }
 .fotoIlustrativa img{
-	height: 90%;
+	max-height: 90%;
 	width: 90%;
 	margin-left: 5%;
 	margin-top: 2.5%;
@@ -373,6 +403,9 @@
 	}
 	.detalleProyecto p {
 		font-size: 12px;
+	}
+	#cuerpo{
+		min-height: 300px;
 	}
 	#footer {
 		font-size: 12px;
@@ -461,36 +494,40 @@
 @media screen and (min-height: 800px) {
 	.linkNavegacion {
 		padding: 30px 30px 30px 30px;
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.encabezado {
 		font-size: 80px;
-		padding: 40px 0px 15px 80px;
+		padding: 10px 0px 15px 80px;
 	}
 	#navigation {
-		height: 86px;
+		height: 101px;
 		padding: 0px 0px 0px 20%;
 	}
 	.cuartoNegroTransparente h1 {
-		font-size: 16px;
+		font-size: 34px;
 		padding-bottom: 5px;
+		padding-top: 5px;
 	}
 	.cuartoNegroTransparente h2 {
-		font-size: 14px;
+		font-size: 20px;
 	}
 	.detalleProyecto {
 		font-size: 12px;
 		bottom: 15px;
 	}
 	.detalleProyecto p {
-		font-size: 12px;
+		font-size: 16px;
+	}
+	#cuerpo{
+		min-height: 500px;
 	}
 	#footer {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	#datos {
 		padding: 10px 30px 30px 0px;
-		font-size: 12px;
+		font-size: 16px;
 	}
 	#copyright {
 		font-size: 12px;
@@ -503,19 +540,19 @@
 		margin-right: 75px;
 	}
 	.nombre {
-		font-size: 16px;
+		font-size: 24px;
 	}
 	.foto {
-		height: 150px;
-		width: 140px;
+		height: 200px;
+		width: 187px;
 		margin-bottom: 20px;
 	}
 	.credenciales {
-		font-size: 12px;
+		font-size: 16px;
 		padding: 4px 0 10px 0;
 	}
 	.cv {
-		font-size: 12px;
+		font-size: 16px;
 	}
 	#wrapperContacto {
 		padding: 100px 0 100px 80px;
@@ -530,25 +567,25 @@
 	.campoFormulario {
 		min-width: 356px;
 		margin-bottom: 10px;
-		font-size: 14px;
+		font-size: 22px;
 	}
 	.campoFormulario label {
-		font-size: 14px;
+		font-size: 22px;
 	}
 	.campoFormulario input, .campoFormulario textarea {
-		font-size: 14px;
+		font-size: 22px;
 		padding: 0 0 0 5px;
 	}
 	.btnEnviar {
 		padding: 0 0 0 5px;
 	}
 	.proyecto h3 {
-		font-size: 24px;
+		font-size: 32px;
 	}
-	.proyecto img {
+	.proyecto div {
 		padding-bottom: 16px;
-		min-height: 150px;
-		min-width: 225px;
+		min-height: 220px;
+		min-width: 400px;
 	}
 	.proyecto p {
 		font-size: 16px;

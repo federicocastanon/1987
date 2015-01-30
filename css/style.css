@@ -50,6 +50,7 @@
 
 #nuevoProyecto {
 	background: url(img/home1.jpg) no-repeat;
+	background-size: cover;
 	min-height: 250px;
 	float: left;
 	width: 75%;
@@ -203,7 +204,7 @@
 /*Portfoilio*/
 #wrapperPortfolio {
 	overflow-x: hidden;
-	padding: 5% 5% 0 5%;
+	padding: 2% 5% 0 5%;
 }
 .carrouselBN {
 
@@ -332,9 +333,7 @@
 	float: left;
 	position: relative;
 }
-.proyectoDetallado {
-	min-height: 550px !important;
-}
+
 .proyectoDetallado h1 {
 	text-align: left;
 	width: 95%;
@@ -377,10 +376,9 @@
 	padding: 2% 2% 0 2%;
 }
 .fotoIlustrativa img {
-	max-height: 90%;
-	width: 90%;
-	margin-left: 5%;
-	margin-top: 2.5%;
+	max-height: 95%;
+	width: 120%;
+	
 }
 .detallePortfolio {
 
@@ -493,6 +491,9 @@
 		height: 1px;
 		margin: 20px 0 5px 0;
 	}
+	.proyectoDetallado {
+		min-height: 550px !important;
+	}
 	.proyectoDetallado h1 {
 		font-size: 20px;
 	}
@@ -501,6 +502,9 @@
 	}
 	.proyectoDetallado h3 {
 		font-size: 12px;
+	}
+	.fotoIlustrativa img{
+		margin-left: -50px;
 	}
 }
 
@@ -596,14 +600,34 @@
 		padding: 0 0 0 5px;
 	}
 	.proyecto h3 {
-		font-size: 32px;
+		font-size: 48px;
 	}
 	.proyecto div {
-		padding-bottom: 16px;
+
 		min-height: 220px;
 		min-width: 400px;
 	}
 	.proyecto p {
 		font-size: 16px;
+	}
+	.separator {
+		height: 1px;
+		margin: 20px 0 5px 0;
+	}
+	.proyectoDetallado {
+	min-height: 800px !important;
+}
+	.proyectoDetallado h1 {
+		font-size: 20px;
+	}
+	.proyectoDetallado h2 {
+		font-size: 16px;
+	}
+	.proyectoDetallado h3 {
+		font-size: 12px;
+	}
+	.fotoIlustrativa img{
+		margin-left: -50px;
+		margin-top: 75px;
 	}
 }

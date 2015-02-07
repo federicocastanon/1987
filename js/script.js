@@ -1,6 +1,10 @@
 var inicializado = false;
 $(document).ready(function() {
 
+	$('.encabezado').click(function() {
+		window.location.href = "index.html";
+	});
+
 	var a = window.location.toString();
 	var name = a.indexOf("portfolio");
 	if (name > 0) {
@@ -69,6 +73,11 @@ $(document).ready(function() {
 					});
 					inicializado = true;
 				}
+				var alturaFoto = $(".sliderFotos").height() * 0.5;
+				$(".fotoIlustrativa > img").each(function() {
+					$(this).height(alturaFoto);
+					$(this).css('padding-top', alturaFoto * 0.5).css('padding-left', alturaFoto * 0.3);
+				});
 			});
 		});
 		$(".slick-list").height(mayorAltura * 1.1);

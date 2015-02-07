@@ -373,11 +373,8 @@
 }
 .fotoIlustrativa {
 	min-height: 400px;
-	padding: 2% 2% 0 2%;
 }
 .fotoIlustrativa img {
-	max-height: 95%;
-	width: 120%;
 	
 }
 .detallePortfolio {
@@ -504,7 +501,7 @@
 		font-size: 12px;
 	}
 	.fotoIlustrativa img{
-		margin-left: -50px;
+	
 	}
 }
 

@@ -5,7 +5,7 @@
 .oculto {
 	display: none;
 }
-#headear {
+#header {
 	background-color: #000000;
 	max-width: 100%;
 }
@@ -15,6 +15,7 @@
 	font-family: 'BenchNine', sans-serif;
 	font-weight: 300;
 	width: 92%;
+	cursor: pointer;
 }
 #navigation {
 	width: 80%;
@@ -380,6 +381,15 @@
 .detallePortfolio {
 
 }
+.linkDetalle, .linkDetalle:visited, .linkDetalle:active{
+	cursor: pointer;
+	color: #A2A2A2;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 300;
+}
+.linkDetalle:hover{
+	font-weight: bold;
+}
 /*Portfoilio*/
 
 @media screen and (max-height: 800px) {
@@ -407,7 +417,7 @@
 		bottom: 15px;
 		padding-bottom: 5px;
 	}
-	.detalleProyecto p {
+	.detalleProyecto p,.linkDetalle {
 		font-size: 12px;
 	}
 	#cuerpo {
@@ -481,7 +491,7 @@
 		min-height: 100px;
 		min-width: 150px;
 	}
-	.proyecto p {
+	.proyecto p, .linkDetalle {
 		font-size: 14px;
 	}
 	.separator {
@@ -625,6 +635,5 @@
 	}
 	.fotoIlustrativa img{
 		margin-left: -50px;
-		margin-top: 75px;
 	}
 }
